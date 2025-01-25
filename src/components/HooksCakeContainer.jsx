@@ -4,7 +4,7 @@ import { buyCake } from "../redux";
 
 const HooksCakeContainer = (props) => {
   const dispatch = useDispatch();
-  const numOfCakes = useSelector((state) => state.numOfCakes);
+  const numOfCakes = useSelector((state) => state.cake.numOfCakes);
 
   return (
     <div className="w-[500px] mt-10 p-5 border border-amber-700 rounded-2xl">
