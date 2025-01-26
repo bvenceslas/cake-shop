@@ -11,6 +11,8 @@ The project is public, it is built for the purpose of refreshing redux notions.
 - Vite
 - Tailwind css
 - redux (react-redux)
+- redux-thunk
+- redux-logger
 
 ### Contributions
 

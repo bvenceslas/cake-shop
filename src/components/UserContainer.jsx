@@ -6,17 +6,23 @@ function UserContainer({ userData, fetchUsers }) {
   useEffect(() => {
     fetchUsers();
   }, []);
-  return (
+  return userData.loading ? (
+    <h2>Loading ...</h2>
+  ) : userData.error ? (
+    <h2 className="text-red-700">{userData.error}</h2>
+  ) : (
     <div>
       <h2 className="mb-5">User List</h2>
-      {userData && userData.map((user) => <p>{user.name}</p>)}
+      {userData &&
+        userData.data &&
+        userData.data.map((user) => <p>{user.name}</p>)}
     </div>
   );
 }
 
 const mapStateToProps = (state) => {
   return {
-    userData: state.user.data,
+    userData: state.user,
   };
 };
 
