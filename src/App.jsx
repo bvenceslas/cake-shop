@@ -5,12 +5,16 @@ import HooksCakeContainer from "./components/HooksCakeContainer";
 import IceCreamContainer from "./components/IceCreamContainer";
 import ItemContainer from "./components/ItemContainer";
 import Separator from "./components/Separator";
+import UserContainer from "./components/UserContainer";
 
 function App() {
   return (
     <>
       <div>
         <h1 className="text-red-700">Welcome to cake shop</h1>
+        <Separator />
+        <UserContainer />
+        <Separator />
         <p className="text-white mt-5 text-center">USING HOOKS</p>
         <ItemContainer cake />
         <HooksCakeContainer />
