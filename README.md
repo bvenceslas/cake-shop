@@ -1,8 +1,19 @@
-# React + Vite
+# cake-shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple cake shop app using react-redux.
 
-Currently, two official plugins are available:
+## Get Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project is public, it is built for the purpose of refreshing redux notions.
+
+## Built with
+
+- Vite
+- Tailwind css
+- redux (react-redux)
+
+### Contributions
+
+### Author
+
+### Show Support
